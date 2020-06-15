@@ -14,6 +14,7 @@ import { PagesRoutingModule } from './pages-routing.module';
 
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { AccountSettingComponent } from './account-setting/account-setting.component';
 
 @NgModule({
   declarations: [DashboardComponent,
@@ -21,7 +22,8 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
                  Graficas1Component,
                  PagesComponent,
                  IncrementadorComponent,
-                 GraficoDonaComponent],
+                 GraficoDonaComponent,
+                 AccountSettingComponent],
   exports: [
     DashboardComponent,
     ProgressComponent,
